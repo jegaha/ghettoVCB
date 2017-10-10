@@ -102,7 +102,7 @@ rm -f vghetto-ghettoVCB.vib
 rm -f vghetto-ghettoVCB-offline-bundle.zip
 
 # Create ghettoVCB VIB + offline bundle
-vibauthor -C -t ${GVCB_TEMP_DIR} -v vghetto-ghettoVCB.vib -O vghetto-ghettoVCB-offline-bundle.zip -f
+vibauthor -C -t ${GVCB_TEMP_DIR} -v artifacts/vghetto-ghettoVCB.vib -O artifacts/vghetto-ghettoVCB-offline-bundle.zip -f
 
 # Remove ghettoVCB temp dir
 rm -rf ${GVCB_TEMP_DIR}

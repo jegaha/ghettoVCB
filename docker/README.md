@@ -5,7 +5,7 @@ At first let me give a great thanks to William Lam for his great work. He made u
 Why is there a need of creating own VIBs to install ghettoVCB?
 
 Well, for me the trigger was a missing fix which made it into the repository but not into the VIBs.
-But another very interestin use case for customized VIBs could be the deployment with an already right preconfigured ghettoVCB.conf file. 
+But another very interesting use case for customized VIBs could be the deployment with an already right preconfigured ghettoVCB.conf file. 
 So I decided to have a look on the VIB creation toolchain. I followed the instructions given by William right here and set up this docker to be able to use different repositorys and version numbers. 
   
 
