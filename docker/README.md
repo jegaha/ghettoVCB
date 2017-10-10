@@ -1,4 +1,4 @@
-#VIB factory
+# VIB factory
 Docker container to simply create VIBs from your ghettoVCB fork.
 At first let me give a great thanks to William Lam for his great work. He made us backing up all of our virtual machines.
 
@@ -9,7 +9,7 @@ But another very interesting use case for customized VIBs could be the deploymen
 So I decided to have a look on the VIB creation toolchain. I followed the instructions given by William right here and set up this docker to be able to use different repositorys and version numbers. 
   
 
-##Create the docker container
+## Create the docker container
 
 When inside this directory the given command below will create the docker image.
 
@@ -17,7 +17,7 @@ When inside this directory the given command below will create the docker image.
 $ docker build -t ghettovcb_vib_creator .
 ```
 
-##Run the container once to create the VIBs
+## Run the container once to create the VIBs
 
 The command below will run the container once and create the desired VIBs. The VIBs and the polled ghettoVCB repository are stored outside the container in the ``/artifacts`` folder.
  
